@@ -9,9 +9,11 @@ node_js:
   #- iojs-v2
   #- iojs-v3  
   #- 5.0       
- 
+env:
+  - secure: IAdlweLfnA5ZlIArPg7qqrfkT9RLtJ1lnYzXtKKQ5OF15MK44CKZ08O4YcI1GazrCNVHc6g0rKBVOwATDBWTqN8bq0yhjevnkZBMpNtJyoA40mBXy/f7HCgw1mPBE0gPG4+iqYyBpbbqDFcUnMGZZtkCuH36XiQS5ZDPa+W0wKUyd3FPgqa+USk4frSrXrO8sYqmBE1f4kd+FEfpJagFwGvFkqIofT2KcDiMoFJCHErDYtRt3x73ebijy0ihRuN33Cs5Rd+XEhgycTzX60NJoKuZdvxKPnhfU6aqQgCa5UH2fuLbqEHMbs46z46JovQ9iYTy5W9eSSEY7A82d8QWGA==
 build:    
   ci:          
     - node --version
+    - echo $test1
     #- sleep 5m  
 
